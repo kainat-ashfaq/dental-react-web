@@ -94,7 +94,6 @@ CardDetails.map((details,index) => (
 
  </div> */}
  </div>
-
 </>
     )
 }

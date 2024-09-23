@@ -2,6 +2,8 @@ import Slider from './components/slider'
 import Cards from './components/Card'
 import Treatment from './components/Treatment'
 import Dentist from './components/Dentists'
+import Appointment from './components/appointment'
+import Blog from './components/Blog'
 import './App.css'
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
    <Cards/>
    <Treatment/>
    <Dentist/>
+   <Appointment/>
+   <Blog/>
     </>
   )
 }
