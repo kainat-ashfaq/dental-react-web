@@ -1,6 +1,7 @@
 import Slider from './components/slider'
 import Cards from './components/Card'
 import Treatment from './components/Treatment'
+import Dentist from './components/Dentists'
 import './App.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Slider/>
    <Cards/>
    <Treatment/>
+   <Dentist/>
     </>
   )
 }

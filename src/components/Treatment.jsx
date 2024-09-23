@@ -44,6 +44,20 @@ function Treatment(){
         <>
         <div className="treatment-section">
             <h1>Treatments</h1>
+            <div className="shapes-img">
+                <img src="img/plus.png" alt="" className="treatment-shape" />
+                <img src="img/empty circle.png" alt="" className="treatment-shape" />
+                <img src="img/blue circle.png" alt="" className="treatment-shape" />
+                <img src="img/plus.png" alt="" className="treatment-shape" />
+            </div>
+            <div className="shapes-img">
+    <img src="img/pink plus.png" alt="" className="treatment-shape-2"/>
+    <img src="img/empty circle.png" alt="" className="treatment-shape-2" />
+    <img src="img/blue circle.png" alt="" className="treatment-shape-2" />
+    <img src="img/plus.png" alt="" className="treatment-shape-2" />
+    <img src="img/fill circle.png" alt="" className="treatment-shape-2" />
+    
+</div>
             <div className="treatment-cards-sec">
                 {
            treatmentCard.map((detail,index)=>(
@@ -69,6 +83,7 @@ function Treatment(){
             </div>
            ))                        
 }
+
             </div>
 
         </div>
