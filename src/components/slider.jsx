@@ -52,7 +52,7 @@ function Slider(){
                 </div>
             </div>
         </div>
-        <h1>ho</h1>
+        {/* <h1>ho</h1> */}
         </>
     )
 }

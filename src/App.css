@@ -249,11 +249,241 @@ body{
   animation: movebounce 2s linear infinite;
  }
 
+
+ /* card section  */
+ .section-three{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.section-three h2{
+  color: #20509e;
+  padding-bottom: 1%;
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 350;
+}
+.section-three p{
+  font-size: 16px;
+  color: #666666;
+  line-height: 25px;
+}
+.card-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.card-sec div{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  filter: drop-shadow(5px 5px 6px rgba(202, 197, 197, 0.5));
+  /* padding: 0px 15px; */
+  padding: 50px 30px 65px;
+  transition: .7s;
+}
+.card-sec div:hover{
+margin-top: -1.5%;
+}
+.card-sec div:nth-child(2):hover{
+  margin-top: -1.5%;
+  }
+.card-sec img{
+margin-top: 15%;
+margin-bottom: 7%;
+
+}
+.card-sec div:nth-child(2){
+  margin: 0 3%;
+}
+.card-sec div h3{
+  color: #222222;
+  font-size: 23px;
+  margin: 3% 0;
+  font-weight: 350px;
+}
+.card-sec div p{
+  text-align: center;
+  margin-bottom: 8% ;
+  margin-top: 4%;
+}
+
+/* family section  */
+.family-main{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+/* .sec1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+} */
+.sec-2{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 5%;
+  width: 43%;
+}
+.family-main .sec-2 h1{
+  color: #222222;
+  font-size: 36px;
+}
+.family-main .sec-2 p{
+color: #666666;
+font-size: 17px;
+text-wrap:balance;
+line-height: 1.5;
+}
+.family-main .sec-2 .about{
+  color: #fc5185;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 1%;
+  border-bottom: 3px solid #fc5185;
+
+}
+.family-main .sec-2 .about:hover{
+  color: #000066;
+  transition: 1s;
+}
+.funfact{
+  padding: 65px 30px 21px;
+  margin: 50px 0px 0px;
+  filter: drop-shadow(5px 5px 6px rgba(202, 197, 197, 0.5));
+width: 20%;
+background-color: #fff;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 70%;
+}
+/* .funfact-1{
+  margin: 0px 0px 45px;
+} */
+.num{
+  color: #222222;
+  font-size: 24px;
+  font-weight: bold
+}
+.funfact-div2,.funfact1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.funfact1 div:nth-child(1),
+.funfact-div2 div:nth-child(1){
+  padding-bottom: 9%;
+}
+.funfact1 div,
+.funfact-div2 div{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.funfact-div2{
+  border-left: 2px solid #ececec;
+  padding-left: 15%;
+}
+.sec1{
+  position: relative;
+  background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    /* display: flex;
+    align-items: center;*/
+    justify-content: center; 
+    width: 50%;
+    /* margin-left: 5%; */
+/* width: 30%; */
+}
+.sec1 img:nth-child(1){
+  position: absolute;
+  right: 60%;
+  bottom: 2%;
+  width: 28%;
+  -webkit-animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
+}
+.family-ball1{
+  left: 10%;
+  width: 1%;
+  -webkit-animation: movebounce 2s linear infinite;
+  animation: movebounce 2s linear infinite;
+}
+.family-ball2{
+  left: 5%;
+  width: 1.5%;
+  -webkit-animation: lefttoright 6s linear infinite;
+  animation: lefttoright 6s linear infinite;
+}
+                                                  /* treatment-section */
+
+.treatment-section{
+background-color: #004caa;
+height: 100vh;
+color: #fff;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 6%;
+/* padding: 1% 0; */
+}
+.treatment-section h1{
+  font-size: 45px;
+  text-align: center;
+}
+.treatment-cards-sec{
+display: flex;
+justify-content: center;
+width: 70%;
+margin:  0 auto;
+align-items: center;
+background-color: #e63939;
+
+}
+@keyframes lefttoright {
+ 
+  0% {
+    left: 5%;
+  }
+
+  100% {
+    left: 10%;
+  }
+}
+.sec1 img:nth-child(2){
+  width: 70%;
+}
+.shapes-img .family-shape{
+  position: absolute; 
+}
+
  @media screen and (max-width:768px) {
  
   .navbar .logo{
-    /* margin: auto; */
-    /* background-color: #993939; */
     margin-left: 25%;
   }
   .navbar .li{

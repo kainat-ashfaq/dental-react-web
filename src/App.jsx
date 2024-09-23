@@ -1,4 +1,6 @@
 import Slider from './components/slider'
+import Cards from './components/Card'
+import Treatment from './components/Treatment'
 import './App.css'
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
   return (
     <>
       <Slider/>
+   <Cards/>
+   <Treatment/>
     </>
   )
 }
