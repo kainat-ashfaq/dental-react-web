@@ -4,6 +4,8 @@ import Treatment from './components/Treatment'
 import Dentist from './components/Dentists'
 import Appointment from './components/appointment'
 import Blog from './components/Blog'
+// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
    <Dentist/>
    <Appointment/>
    <Blog/>
+   {/* <Footer/> */}
+   <Footer/>
     </>
   )
 }

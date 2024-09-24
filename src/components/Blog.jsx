@@ -47,7 +47,27 @@ return(
     ))
 }
     </div>
-    
+    <div className="req-div">
+        <div className="req-txt">
+<h1>Request your appointment and start your smile makeover!</h1>
+<button className="req-btn">Request Appointment</button>
+        </div>
+        <div className="req-img">
+            <img src="img/app1.png" alt="" />
+        </div>
+    </div>
+    <div className="brand-name">
+
+<div className="b-img">
+    <img src="img/brand-1.png" alt="" />
+    </div>
+    <div className="b-img">
+    <img src="img/brand-2.png" alt="" />
+    </div>
+    <div className="b-img">
+    <img src="img/brand-3.png" alt="" />
+    </div>
+    </div>
     </>
 )
 }

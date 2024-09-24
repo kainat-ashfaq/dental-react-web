@@ -20,6 +20,20 @@ return(
 
     <div className="gallery-sec">
         <h1>our Gallery</h1>
+        <div className="shapes-img">
+                <img src="img/plus.png" alt="" className="treatment-shape" />
+                <img src="img/empty circle.png" alt="" className="treatment-shape" />
+                <img src="img/blue circle.png" alt="" className="treatment-shape" />
+                <img src="img/plus.png" alt="" className="treatment-shape" />
+            </div>
+            <div className="shapes-img">
+    <img src="img/pink plus.png" alt="" className="treatment-shape-2"/>
+    <img src="img/empty circle.png" alt="" className="treatment-shape-2" />
+    <img src="img/blue circle.png" alt="" className="treatment-shape-2" />
+    <img src="img/plus.png" alt="" className="treatment-shape-2" />
+    <img src="img/fill circle.png" alt="" className="treatment-shape-2" />
+    
+</div>
         <div className="gallerysec-1">
             <div>
                 <img src="img/gallery1.jpg" alt="" />
@@ -34,6 +48,7 @@ return(
             </div>
         </div>
         <div className="gallerysec-2">
+            
             <div>
             <img src="img/gallery4.jpg" alt="" />
 
@@ -43,6 +58,7 @@ return(
 
             </div>
         </div>
+        
     </div>
 
 <h1 className="testi">Testimonials</h1>
